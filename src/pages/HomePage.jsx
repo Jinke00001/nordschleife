@@ -49,7 +49,7 @@ export default function HomePage() {
         <p className="hero-photo-credit">Karussell · Wikimedia Commons · CC0</p>
       </section>
 
-      <div className="atmosphere-banner">
+      <div className="atmosphere-banner reveal-on-scroll">
         <OptimizedImage basename="atmosphere-forest" alt="" loading="lazy" decoding="async" />
         <div className="atmosphere-banner-overlay" />
       </div>
@@ -77,7 +77,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="atmosphere-banner">
+      <div className="atmosphere-banner reveal-on-scroll">
         <OptimizedImage basename="atmosphere-dusk" alt="" loading="lazy" decoding="async" />
         <div className="atmosphere-banner-overlay" />
       </div>

@@ -636,10 +636,20 @@ main::before {
   position: relative;
   width: 100%;
   height: clamp(260px, 36vw, 480px);
-  margin: 80px 0 64px;
+  margin: 64px 0;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.03);
   border-radius: 4px;
+}
+
+/* Atmosphere banners reveal with more fade, less slide */
+.atmosphere-banner.reveal-on-scroll {
+  transform: translateY(12px);
+  transition: opacity 1s ease, transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.atmosphere-banner.reveal-on-scroll.is-revealed {
+  transform: translateY(0);
 }
 
 .atmosphere-banner picture,
@@ -659,7 +669,7 @@ main::before {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(180deg, var(--bg) 0%, transparent 12%, transparent 88%, var(--bg) 100%);
+    linear-gradient(180deg, var(--bg) 0%, rgba(11, 13, 17, 0.6) 8%, transparent 18%, transparent 82%, rgba(11, 13, 17, 0.6) 92%, var(--bg) 100%);
 }
 
 /* Decorative red accent line on atmosphere banners */
@@ -1337,6 +1347,36 @@ main::before {
   padding-left: 16px;
   border-left: 3px solid var(--red);
   box-shadow: inset 3px 0 0 rgba(229, 35, 46, 0.15);
+}
+
+/* Stagger section header children on reveal */
+.section-header .eyebrow,
+.section-header h2,
+.section-header > p:not(.eyebrow) {
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.reveal-on-scroll:not(.is-revealed) .section-header .eyebrow,
+.reveal-on-scroll:not(.is-revealed) .section-header h2,
+.reveal-on-scroll:not(.is-revealed) .section-header > p:not(.eyebrow) {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.reveal-on-scroll.is-revealed .section-header .eyebrow {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.05s;
+}
+.reveal-on-scroll.is-revealed .section-header h2 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.12s;
+}
+.reveal-on-scroll.is-revealed .section-header > p:not(.eyebrow) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s;
 }
 
 .section-header h2,
@@ -3954,6 +3994,38 @@ main::before {
 .reveal-on-scroll.is-revealed {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Stagger children on reveal: cards, badges, banner images */
+.reveal-on-scroll.is-revealed .corner-card,
+.reveal-on-scroll.is-revealed .brand-badge,
+.reveal-on-scroll.is-revealed .brand-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.reveal-on-scroll.is-revealed .corner-card:nth-child(1),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(1) { animation-delay: 0.05s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(2),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(2) { animation-delay: 0.1s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(3),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(3) { animation-delay: 0.15s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(4),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(4) { animation-delay: 0.2s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(5),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(5) { animation-delay: 0.25s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(6),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(6) { animation-delay: 0.3s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(7),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(7) { animation-delay: 0.35s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(8),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(8) { animation-delay: 0.4s; }
+.reveal-on-scroll.is-revealed .corner-card:nth-child(9),
+.reveal-on-scroll.is-revealed .brand-badge:nth-child(9) { animation-delay: 0.45s; }
+
+@keyframes staggerIn {
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ─────────────────────────────────────────
