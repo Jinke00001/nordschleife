@@ -1,0 +1,349 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "返回首页" [ref=e5] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e7]
+      - generic [ref=e10]:
+        - strong [ref=e11]: Nordschleife
+        - generic [ref=e12]: 绿色地狱弯角档案
+    - navigation "主导航" [ref=e13]:
+      - link "首页" [ref=e14] [cursor=pointer]:
+        - /url: "#/"
+      - link "弯角列表" [ref=e15] [cursor=pointer]:
+        - /url: "#/corners"
+      - link "品牌故事" [ref=e16] [cursor=pointer]:
+        - /url: "#/brands"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Nürburgring Nordschleife
+        - heading "读懂纽北的 每一道弯" [level=1] [ref=e21]:
+          - generic [ref=e22]: 读懂纽北的
+          - generic [ref=e23]: 每一道弯
+        - paragraph [ref=e24]: 以 Nordschleife 的赛道地图为线索，梳理弯角名称、地形记忆、速度风险与赛车传说，重新认识这条被称为“绿色地狱”的传奇赛道。
+        - generic [ref=e25]:
+          - link "探索弯角" [ref=e26] [cursor=pointer]:
+            - /url: "#/corners"
+            - text: 探索弯角
+            - img [ref=e27]
+          - button "查看赛道地图" [ref=e29] [cursor=pointer]
+      - complementary "北环赛道实景" [ref=e30]:
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: CARACCIOLA-KARUSSELL
+          - img "纽博格林北环 Karussell 弯角的水泥槽赛段" [ref=e33]
+    - region "沿着弯角，进入北环" [ref=e34]:
+      - heading "沿着弯角，进入北环" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - article [ref=e37]:
+          - generic [ref=e38]: "01"
+          - heading "弯角索引" [level=3] [ref=e39]
+          - paragraph [ref=e40]: 按赛道顺序整理 Nordschleife 的重要弯角与名称来源。
+        - article [ref=e41]:
+          - generic [ref=e42]: "02"
+          - heading "地形与风险" [level=3] [ref=e43]
+          - paragraph [ref=e44]: 结合起伏、盲弯、压缩路段和高速区，理解北环独特的驾驶节奏。
+        - article [ref=e45]:
+          - generic [ref=e46]: "03"
+          - heading "传奇与圈速" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 记录与赛车测试、品牌纪录和经典车型相关的北环故事。
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Track Map
+        - heading "先看清这条“森林长卷”的真实形状" [level=2] [ref=e52]
+        - paragraph [ref=e53]: 赛道图不是装饰，而是进入北环的第一张索引。红色进度沿赛道巡游，弯名按钮连接到对应故事页： 从 Flugplatz 的车身变轻，到 Karussell 的水泥槽，再到 Döttinger Höhe 的全油门长直道。
+      - region "纽北真实赛道图" [ref=e54]:
+        - generic [ref=e57]:
+          - img [ref=e58]
+          - generic "纽北弯角名称图层":
+            - button "萨宾娜弯 / Sabine-Schmitz-Kurve" [ref=e64] [cursor=pointer]: 萨宾娜弯
+            - button "哈岑巴赫弧线 / Hatzenbach Bogen" [ref=e65] [cursor=pointer]: 哈岑巴赫弧线
+            - button "哈岑巴赫 / Hatzenbach" [ref=e66] [cursor=pointer]: 哈岑巴赫
+            - button "大橡树 / Hoheichen" [ref=e67] [cursor=pointer]: 大橡树
+            - button "奎德巴赫高地 / Quiddelbacher Höhe" [ref=e68] [cursor=pointer]: 奎德巴赫高地
+            - button "飞机场 / Flugplatz" [pressed] [ref=e69] [cursor=pointer]: 飞机场
+            - button "科滕博恩 / Kottenborn" [ref=e70] [cursor=pointer]: 科滕博恩
+            - button "瑞典十字 / Schwedenkreuz" [ref=e71] [cursor=pointer]: 瑞典十字
+            - button "阿伦山 / Aremberg" [ref=e72] [cursor=pointer]: 阿伦山
+            - button "狐狸洞 / Fuchsröhre" [ref=e73] [cursor=pointer]: 狐狸洞
+            - button "阿德瑙森林 / Adenauer Forst" [ref=e74] [cursor=pointer]: 阿德瑙森林
+            - button "屠宰场 / Metzgesfeld" [ref=e75] [cursor=pointer]: 屠宰场
+            - button "卡伦哈特 / Kallenhard" [ref=e76] [cursor=pointer]: 卡伦哈特
+            - button "镜像双子 / Spiegelkurve" [ref=e77] [cursor=pointer]: 镜像双子
+            - button "三连右 / Dreifach-Rechts" [ref=e78] [cursor=pointer]: 三连右
+            - button "防御谷 / Wehrseifen" [ref=e79] [cursor=pointer]: 防御谷
+            - button "布赖德沙伊德 / Breidscheid" [ref=e80] [cursor=pointer]: 布赖德沙伊德
+            - button "旧磨坊 / Ex-Mühle" [ref=e81] [cursor=pointer]: 旧磨坊
+            - button "劳达左弯 / Lauda-Links" [ref=e82] [cursor=pointer]: 劳达左弯
+            - button "矿山 / Bergwerk" [ref=e83] [cursor=pointer]: 矿山
+            - button "小谷地 / Kesselchen" [ref=e84] [cursor=pointer]: 小谷地
+            - button "勇气弯 / Mutkurve" [ref=e85] [cursor=pointer]: 勇气弯
+            - button "修道谷 / Klostertal" [ref=e86] [cursor=pointer]: 修道谷
+            - button "陡坡段 / Steilstrecke" [ref=e87] [cursor=pointer]: 陡坡段
+            - button "旋转木马 / Caracciola-Karussell" [ref=e88] [cursor=pointer]: 旋转木马
+            - button "高八 / Hohe Acht" [ref=e89] [cursor=pointer]: 高八
+            - button "海德薇高地 / Hedwigshöhe" [ref=e90] [cursor=pointer]: 海德薇高地
+            - button "弹跳人 / Wippermann" [ref=e91] [cursor=pointer]: 弹跳人
+            - button "埃施巴赫 / Eschbach" [ref=e92] [cursor=pointer]: 埃施巴赫
+            - button "小水井 / Brünnchen" [ref=e93] [cursor=pointer]: 小水井
+            - button "网红弯 / YouTube Corner" [ref=e94] [cursor=pointer]: 网红弯
+            - button "冰弯 / Eiskurve" [ref=e95] [cursor=pointer]: 冰弯
+            - button "植物园 I / Pflanzgarten I" [ref=e96] [cursor=pointer]: 植物园 I
+            - button "植物园 II / Pflanzgarten II" [ref=e97] [cursor=pointer]: 植物园 II
+            - button "贝洛夫 S / Stefan-Bellof-S" [ref=e98] [cursor=pointer]: 贝洛夫 S
+            - button "燕尾 / Schwalbenschwanz" [ref=e99] [cursor=pointer]: 燕尾
+            - button "小旋转木马 / Kleine Karussell" [ref=e100] [cursor=pointer]: 小旋转木马
+            - button "断头台 / Galgenkopf" [ref=e101] [cursor=pointer]: 断头台
+            - button "多廷根高地 / Döttinger Höhe" [ref=e102] [cursor=pointer]: 多廷根高地
+            - button "安东尼榉木 / Antoniusbuche" [ref=e103] [cursor=pointer]: 安东尼榉木
+            - button "动物园 / Tiergarten" [ref=e104] [cursor=pointer]: 动物园
+            - button "高雨组合弯 / Hohenrain-Schikane" [ref=e105] [cursor=pointer]: 高雨组合弯
+            - button "T13 / T13" [ref=e106] [cursor=pointer]: T13
+          - generic "地图语言切换" [ref=e107]:
+            - button "中" [ref=e108] [cursor=pointer]
+            - button "DE" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic [ref=e111]: "03"
+            - strong [ref=e112]: 飞机场
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - paragraph [ref=e117]: 为什么叫绿色地狱
+          - heading "它的可怕，不只来自速度" [level=2] [ref=e118]
+          - paragraph [ref=e119]: “绿色地狱”常被联想到树林包围的压迫感，但真正让人敬畏的是组合难度：路窄、起伏大、弯角多、天气变化快， 加上许多地方没有现代赛车场那种一眼看穿的开阔感。你不是在一块平整场地上刷圈，更像被放进一条会呼吸的山地长卷。
+        - generic "理解北环的关键词" [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: 路窄
+            - generic [ref=e123]: 高差
+            - generic [ref=e124]: 盲弯
+            - generic [ref=e125]: 压缩
+            - generic [ref=e126]: 跳跃
+            - generic [ref=e127]: 长距离
+          - generic [ref=e128]:
+            - strong [ref=e129]: 阅读方式
+            - paragraph [ref=e130]: 先用地图建立空间感，再按赛道顺序读弯角故事。你会发现很多名字不是装饰，而是来自村庄、地形、矿场、森林和观众记忆。
+      - generic [ref=e131]:
+        - article [ref=e132]:
+          - img [ref=e133]
+          - heading "弯角像地名" [level=3] [ref=e135]
+          - paragraph [ref=e136]: Flugplatz、Bergwerk、Brünnchen 这些名字听起来像地图标注，也正是北环的魅力：赛道和地方记忆长在一起。
+        - article [ref=e137]:
+          - img [ref=e138]
+          - heading "地形参与驾驶" [level=3] [ref=e142]
+          - paragraph [ref=e143]: 跳跃、压缩、坡顶、下坡和森林视线会改变车辆姿态。北环不是弯角集合，而是一条持续变化的驾驶叙事。
+        - article [ref=e144]:
+          - img [ref=e145]
+          - heading "圈速只是片尾" [level=3] [ref=e148]
+          - paragraph [ref=e149]: 每个品牌都想把成绩写在这里，但对新手来说，先理解弯角故事，比盯着数字更容易进入北环世界。
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Corner Gallery
+        - heading "先认识这些著名弯角" [level=2] [ref=e153]
+        - paragraph [ref=e154]: 从飞行场到长直道，这些名字构成了许多人认识北环的路线图。
+      - generic [ref=e155]:
+        - article [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: "#03"
+            - generic [ref=e159]: Quiddelbacher Höhe 之后，Kottenborn 与 Schwedenkreuz 之前
+          - heading "Flugplatz" [level=3] [ref=e160]:
+            - link "Flugplatz" [ref=e161] [cursor=pointer]:
+              - /url: "#/corners/flugplatz"
+          - paragraph [ref=e162]: 飞行场 · 名字来自旧飞行场，高速坡顶让车身变轻，是北环早段最有画面感的地形之一。
+          - generic [ref=e163]:
+            - generic [ref=e164]: 高速
+            - generic [ref=e165]: 跳跃
+            - generic [ref=e166]: 坡顶
+          - link "进入详情" [ref=e167] [cursor=pointer]:
+            - /url: "#/corners/flugplatz"
+            - text: 进入详情
+            - img [ref=e168]
+        - article [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]: "#05"
+            - generic [ref=e174]: Fuchsröhre 之后，Metzgesfeld 之前
+          - heading "Adenauer Forst" [level=3] [ref=e175]:
+            - link "Adenauer Forst" [ref=e176] [cursor=pointer]:
+              - /url: "#/corners/adenauer-forst"
+          - paragraph [ref=e177]: 阿登瑙森林 · 森林里的慢速组合弯，隐藏、收紧、节奏突变，是许多新手和玩家的“走错路现场”。
+          - generic [ref=e178]:
+            - generic [ref=e179]: 慢速组合
+            - generic [ref=e180]: 容易失误
+            - generic [ref=e181]: 森林
+          - link "进入详情" [ref=e182] [cursor=pointer]:
+            - /url: "#/corners/adenauer-forst"
+            - text: 进入详情
+            - img [ref=e183]
+        - article [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e188]: "#06"
+            - generic [ref=e189]: Adenauer Forst 之后
+          - heading "Fuchsröhre" [level=3] [ref=e190]:
+            - link "Fuchsröhre" [ref=e191] [cursor=pointer]:
+              - /url: "#/corners/fuchsroehre"
+          - paragraph [ref=e192]: 狐狸洞 · 下坡高速谷地与压缩路段，车像被森林地形吸进一根狭长管道。
+          - generic [ref=e193]:
+            - generic [ref=e194]: 高速
+            - generic [ref=e195]: 压缩路段
+            - generic [ref=e196]: 下坡
+          - link "进入详情" [ref=e197] [cursor=pointer]:
+            - /url: "#/corners/fuchsroehre"
+            - text: 进入详情
+            - img [ref=e198]
+        - article [ref=e201]:
+          - generic [ref=e202]:
+            - generic [ref=e203]: "#08"
+            - generic [ref=e204]: Kesselchen 上坡前
+          - heading "Bergwerk" [level=3] [ref=e205]:
+            - link "Bergwerk" [ref=e206] [cursor=pointer]:
+              - /url: "#/corners/bergwerk"
+          - paragraph [ref=e207]: 矿场弯 · 通往 Kesselchen 长上坡前的关键右弯，一个出口决定后面很长一段速度账。
+          - generic [ref=e208]:
+            - generic [ref=e209]: 关键出弯
+            - generic [ref=e210]: 圈速
+            - generic [ref=e211]: 上坡前
+          - link "进入详情" [ref=e212] [cursor=pointer]:
+            - /url: "#/corners/bergwerk"
+            - text: 进入详情
+            - img [ref=e213]
+        - article [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: "#10"
+            - generic [ref=e219]: Klostertal 之后，Hohe Acht 之前
+          - heading "Karussell" [level=3] [ref=e220]:
+            - link "Karussell" [ref=e221] [cursor=pointer]:
+              - /url: "#/corners/karussell"
+          - paragraph [ref=e222]: 旋转木马 · 混凝土碗状内倾弯，正式名称常写作 Caracciola-Karussell，是北环最有标志性的慢速弯之一。
+          - generic [ref=e223]:
+            - generic [ref=e224]: 地标弯
+            - generic [ref=e225]: 内倾
+            - generic [ref=e226]: 慢速
+          - link "进入详情" [ref=e227] [cursor=pointer]:
+            - /url: "#/corners/karussell"
+            - text: 进入详情
+            - img [ref=e228]
+        - article [ref=e231]:
+          - generic [ref=e232]:
+            - generic [ref=e233]: "#12"
+            - generic [ref=e234]: Eschbach 之后
+          - heading "Brünnchen" [level=3] [ref=e235]:
+            - link "Brünnchen" [ref=e236] [cursor=pointer]:
+              - /url: "#/corners/brunnchen"
+          - paragraph [ref=e237]: 小泉弯 · 观众最爱聚集的弯区之一，外号“YouTube Corner”，车辆性格和失误都会被镜头放大。
+          - generic [ref=e238]:
+            - generic [ref=e239]: 观众区
+            - generic [ref=e240]: 视频名场面
+            - generic [ref=e241]: 组合弯
+          - link "进入详情" [ref=e242] [cursor=pointer]:
+            - /url: "#/corners/brunnchen"
+            - text: 进入详情
+            - img [ref=e243]
+        - article [ref=e246]:
+          - generic [ref=e247]:
+            - generic [ref=e248]: "#13"
+            - generic [ref=e249]: Brünnchen 之后
+          - heading "Pflanzgarten" [level=3] [ref=e250]:
+            - link "Pflanzgarten" [ref=e251] [cursor=pointer]:
+              - /url: "#/corners/pflanzgarten"
+          - paragraph [ref=e252]: 植物园 · 跳跃、压缩和高速变向密集出现，北环后段最像赛车纪录片高潮段落的区域。
+          - generic [ref=e253]:
+            - generic [ref=e254]: 跳跃
+            - generic [ref=e255]: 压缩路段
+            - generic [ref=e256]: 高速变向
+          - link "进入详情" [ref=e257] [cursor=pointer]:
+            - /url: "#/corners/pflanzgarten"
+            - text: 进入详情
+            - img [ref=e258]
+        - article [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]: "#14"
+            - generic [ref=e264]: Pflanzgarten 之后
+          - heading "Schwalbenschwanz" [level=3] [ref=e265]:
+            - link "Schwalbenschwanz" [ref=e266] [cursor=pointer]:
+              - /url: "#/corners/schwalbenschwanz"
+          - paragraph [ref=e267]: 燕尾弯 · Pflanzgarten 之后的优雅后段弯区，名字像燕尾，驾驶却要求把兴奋重新收住。
+          - generic [ref=e268]:
+            - generic [ref=e269]: 后段
+            - generic [ref=e270]: 节奏
+            - generic [ref=e271]: 线路
+          - link "进入详情" [ref=e272] [cursor=pointer]:
+            - /url: "#/corners/schwalbenschwanz"
+            - text: 进入详情
+            - img [ref=e273]
+        - article [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]: "#17"
+            - generic [ref=e279]: 终点前长直道
+          - heading "Döttinger Höhe" [level=3] [ref=e280]:
+            - link "Döttinger Höhe" [ref=e281] [cursor=pointer]:
+              - /url: "#/corners/doettinger-hoehe"
+          - paragraph [ref=e282]: 多廷格高地 · 北环标志性长直道，极速、尾流、终点情绪和整圈得失在这里汇合。
+          - generic [ref=e283]:
+            - generic [ref=e284]: 长直道
+            - generic [ref=e285]: 极速
+            - generic [ref=e286]: 圈速
+          - link "进入详情" [ref=e287] [cursor=pointer]:
+            - /url: "#/corners/doettinger-hoehe"
+            - text: 进入详情
+            - img [ref=e288]
+    - generic [ref=e291]:
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - paragraph [ref=e294]: Track Route
+          - heading "赛道路线导览" [level=2] [ref=e295]
+          - paragraph [ref=e296]: 按这条阅读路线建立整体印象：高速、失误、压缩、地标、跳跃、终点，六段就能抓住北环的骨架。
+        - link "查看完整赛道顺序" [ref=e297] [cursor=pointer]:
+          - /url: "#/corners"
+          - text: 查看完整赛道顺序
+          - img [ref=e298]
+        - generic "新手阅读节奏" [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: "01"
+            - strong [ref=e303]: 高速建立尺度
+            - paragraph [ref=e304]: 先感受 Flugplatz 一带的速度和起伏，理解北环不是平面赛道。
+          - generic [ref=e305]:
+            - generic [ref=e306]: "02"
+            - strong [ref=e307]: 慢弯暴露失误
+            - paragraph [ref=e308]: Adenauer Forst 把节奏突然降下来，帮助新手记住“快之后的慢”。
+          - generic [ref=e309]:
+            - generic [ref=e310]: "03"
+            - strong [ref=e311]: 地标串起记忆
+            - paragraph [ref=e312]: 再用 Karussell、Pflanzgarten 和 Döttinger Höhe 把后半圈连成画面。
+      - list [ref=e313]:
+        - listitem [ref=e314]:
+          - link "03 Flugplatz 名字来自旧飞行场，高速坡顶让车身变轻，是北环早段最有画面感的地形之一。" [ref=e315] [cursor=pointer]:
+            - /url: "#/corners/flugplatz"
+            - generic [ref=e316]: "03"
+            - strong [ref=e317]: Flugplatz
+            - emphasis [ref=e318]: 名字来自旧飞行场，高速坡顶让车身变轻，是北环早段最有画面感的地形之一。
+        - listitem [ref=e319]:
+          - link "05 Adenauer Forst 森林里的慢速组合弯，隐藏、收紧、节奏突变，是许多新手和玩家的“走错路现场”。" [ref=e320] [cursor=pointer]:
+            - /url: "#/corners/adenauer-forst"
+            - generic [ref=e321]: "05"
+            - strong [ref=e322]: Adenauer Forst
+            - emphasis [ref=e323]: 森林里的慢速组合弯，隐藏、收紧、节奏突变，是许多新手和玩家的“走错路现场”。
+        - listitem [ref=e324]:
+          - link "06 Fuchsröhre 下坡高速谷地与压缩路段，车像被森林地形吸进一根狭长管道。" [ref=e325] [cursor=pointer]:
+            - /url: "#/corners/fuchsroehre"
+            - generic [ref=e326]: "06"
+            - strong [ref=e327]: Fuchsröhre
+            - emphasis [ref=e328]: 下坡高速谷地与压缩路段，车像被森林地形吸进一根狭长管道。
+        - listitem [ref=e329]:
+          - link "10 Karussell 混凝土碗状内倾弯，正式名称常写作 Caracciola-Karussell，是北环最有标志性的慢速弯之一。" [ref=e330] [cursor=pointer]:
+            - /url: "#/corners/karussell"
+            - generic [ref=e331]: "10"
+            - strong [ref=e332]: Karussell
+            - emphasis [ref=e333]: 混凝土碗状内倾弯，正式名称常写作 Caracciola-Karussell，是北环最有标志性的慢速弯之一。
+        - listitem [ref=e334]:
+          - link "13 Pflanzgarten 跳跃、压缩和高速变向密集出现，北环后段最像赛车纪录片高潮段落的区域。" [ref=e335] [cursor=pointer]:
+            - /url: "#/corners/pflanzgarten"
+            - generic [ref=e336]: "13"
+            - strong [ref=e337]: Pflanzgarten
+            - emphasis [ref=e338]: 跳跃、压缩和高速变向密集出现，北环后段最像赛车纪录片高潮段落的区域。
+        - listitem [ref=e339]:
+          - link "17 Döttinger Höhe 北环标志性长直道，极速、尾流、终点情绪和整圈得失在这里汇合。" [ref=e340] [cursor=pointer]:
+            - /url: "#/corners/doettinger-hoehe"
+            - generic [ref=e341]: "17"
+            - strong [ref=e342]: Döttinger Höhe
+            - emphasis [ref=e343]: 北环标志性长直道，极速、尾流、终点情绪和整圈得失在这里汇合。
+  - contentinfo [ref=e344]:
+    - paragraph [ref=e345]: 中文科普站 · Nürburgring Nordschleife corner stories
+    - paragraph [ref=e346]: 以弯角、地形、驾驶性格与品牌故事认识这条森林长卷。
